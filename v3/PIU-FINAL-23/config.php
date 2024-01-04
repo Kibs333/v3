@@ -1,5 +1,5 @@
 <?php
-$dsn="mysql:host=localhost;dbname=sicklywa_v3";
+$dsn="mysql:host=localhost;dbname=";
 $dbusername="root";
 $dbpassword="";
 
