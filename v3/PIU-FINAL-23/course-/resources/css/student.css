@@ -1,0 +1,103 @@
+ /* Add some styling to the table */
+ table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+
+  /* Add a subtle border to the table cells */
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+
+  /* Style the table header */
+  th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  /* Style the table rows alternately for better readability */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  /* Hover effect on table rows */
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  /* Style the table cells */
+  td {
+    max-width:50px;
+    padding: 10px;
+  }
+
+  /* Add some spacing between the table cells */
+  td:not(:last-child) {
+    padding-right: 20px;
+  }
+
+  /* Add a subtle shadow to the table for depth */
+  table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Responsive table for small screens */
+  @media (max-width: 600px) {
+    table {
+      font-size: 14px;
+    }
+  }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            
+            height: 100vh;
+        }
+
+        .form-container {
+            display: flex;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin-top:20px;
+        }
+
+        .form-container label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-container input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-container button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .form-container button:hover {
+            background-color: #45a049;
+        }

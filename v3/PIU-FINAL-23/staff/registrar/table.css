@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Add some spacing between cells for better readability */
+  td {
+    padding-left: 10px;
+  }
+  
+  /* Add some styling to the first column (Adm NO) */
+  td:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for header cells (th) */
+  th {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for success status */
+  td.success {
+    color: green;
+  }
+  
+  /* Style for failure status */
+  td.failure {
+    color: red;
+  }

@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;}
+ body{font-size:12px;font-family:verdana; text-transform: capitalize;border:2px solid pink;}
+ form{max-width:100%}
+ .header{display:flex;justify-content: space-between;}
+ img{margin: 0 auto;text-align: center;display: flex;width: 5%;}
+ h1{ text-align: center;}
+ input[type="text"] {border:none;border-bottom:1px solid black;width:45%;}
+ .first{max-width:100%;}
+ .top{display:flex;justify-content: space-around;}
+ .middle{display:flex;margin: 2rem 0rem;justify-content: space-around;}
+ .m-line{width:100px;}
+ .btm-line{width:200px;}
+ table {border:1px solid black;border-collapse:collapse;width:100%;}
+ th:first-child,th:nth-child(2),td:nth-child(1){border:1px solid black;padding: 10px;}
+ .yos{margin-left: 10px;}
+ tr:nth-child(odd){ background-color: bisque;}
+ tr th:nth-child(n+3){width: 10%;}
+ td:nth-child(n+3){padding: 10px 0px;text-align: center;}
+ th:nth-child(2) {background: white;}
+ .q{display:flex;border:1px solid black; margin:10px 0px;}
+ .q textarea{flex:1; border: 3px solid black}
+ .q p:first-child{padding: 10px;border-right: 1px solid black;}
+ .q span{ width:40%}
+ button{padding:10px  20px;background-color: palevioletred;border-radius: 10px;display: flex;margin: 0 auto;}
+ 
+@media (max-width: 700px) {
+  body {
+    width: fit-content;
+  }
+}
